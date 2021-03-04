@@ -1,0 +1,34 @@
+@charset "UTF-8"; // 한글 주석 위해 필요
+
+// Break Point (Desktop First 기준 내림차순 설정)
+$desktop-l-width	: 1440px;
+$tablet-l-width		: 1024px;
+$tablet-s-width		: 768px;
+$mob-l-width		: 640px;
+$mob-m-width		: 425px;
+$mob-s-width		: 375px;
+
+@import './font.scss'; //폰트 모음
+
+h1 {
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+}
+
+html,
+body{
+	position: relative;
+	height: 100%;
+    font-family: 'BMHANNAPro', sans-serif !important;
+}
+
+
+
+
+// @media screen and (max-width: #{$tablet-s-width}) {
+//     .pc{
+//         display: none;
+//     }
+//     .mobile{
+//         display: block;
+//     }
+// }
