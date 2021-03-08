@@ -1,5 +1,6 @@
 <template>
   <header class="header">
+    <!--Main menu-->
     <div class="menu">
       <div class="container">
         <div class="row">
@@ -16,13 +17,32 @@
           <div class="menu__wrapper col-md-12 d-lg-none">
             <button type="button" class="menu__mobile-button">
               <span>
-                <font-awesome-icon :icon="['fas','bars']"/>
+                <font-awesome-icon :icon="['fas', 'bars']" />
               </span>
             </button>
           </div>
         </div>
       </div>
     </div>
+    <!--Main menu-->
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu d-lg-none">
+      <div class="container">
+        <div class="mobile-menu__close">
+          <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+        </div>
+        <nav class="mobile-menu__wrapper">
+          <ul>
+            <li><a href="#hello">자기소개</a></li>
+            <li><a href="#career">경력사항</a></li>
+            <li><a href="#resume">보유기술</a></li>
+            <li><a href="#portfolio">개인 프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Mobile menu -->
   </header>
 </template>
 

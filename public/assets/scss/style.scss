@@ -1,0 +1,272 @@
+@charset "UTF-8"; // 한글 주석 위해 필요
+
+// Break Point (Desktop First 기준 내림차순 설정)
+$desktop-l-width	: 1440px;
+$tablet-l-width		: 1024px;
+$tablet-s-width		: 768px;
+$mob-l-width		: 640px;
+$mob-m-width		: 425px;
+$mob-s-width		: 375px;
+
+@import './font.scss'; //폰트 모음
+
+h1 {
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+}
+
+html,
+body{
+	position: relative;
+	height: 100%;
+    font-family: 'BMHANNAPro', sans-serif !important;
+}
+
+/**********************메뉴*****************************/
+nav {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+nav ul li {
+    display: inline-block
+}
+
+nav ul li a {
+    padding-right: 50px;
+    color: #999
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    bottom: 0;
+    right: 42px;
+    opacity: 0;
+    transition: background .3s;
+    background: #6d56c1
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    transition: all .15s;
+    color: #6d56c1
+}
+
+nav ul li a:hover:after {
+    opacity: 1
+}
+
+.menu {
+    position: fixed;
+    padding: 0;
+    height: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    transition: all .5s
+}
+
+.menu .menu__wrapper {
+    z-index: 1;
+    margin-top: 50px;
+    transition: all .3s
+}
+
+.menu .menu__wrapper nav {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto Mono, Jeju Gothic, monospace;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.menu .menu__wrapper nav a {
+    color: #fff;
+    opacity: 1
+}
+
+.menu .menu__wrapper nav a:hover {
+    opacity: .5
+}
+
+.menu .menu__wrapper nav a:after {
+    background: #fff
+}
+
+.menu .menu__mobile-button {
+    color: #fff;
+    opacity: .5;
+    transition: all .3s;
+    background-color: transparent;
+    border: none
+}
+
+.menu .menu__mobile-button:hover {
+    opacity: 1
+}
+
+.menu.menu--active {
+    background-color: #fff;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14)
+}
+
+.menu.menu--active .menu__wrapper {
+    margin-top: 25px
+}
+
+.menu.menu--active .menu__wrapper a {
+    color: #555 !important;
+    opacity: 1
+}
+
+.menu.menu--active .menu__wrapper a:hover {
+    color: #6d56c1 !important
+}
+
+.menu.menu--active .menu__wrapper a:after {
+    background: #6d56c1 !important
+}
+
+.menu.menu--active .menu__mobile-button {
+    color: #555 !important;
+    opacity: .9;
+    margin-top: -5px;
+    transition: all .3s;
+    background-color: transparent;
+    border: none
+}
+
+.menu.menu--active .menu__mobile-button:hover {
+    color: #6d56c1 !important;
+    opacity: 1
+}
+
+.menu.menu--active .menu__mobile-button:after {
+    background: #6d56c1 !important
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    z-index: 9999;
+    transition: all .3s ease;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0
+}
+
+.mobile-menu.active {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 1
+}
+
+.mobile-menu .mobile-menu__wrapper {
+    height: 100%;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto Mono, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 60px
+}
+
+.mobile-menu .mobile-menu__wrapper ul {
+    padding: 30px 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100%
+}
+
+.mobile-menu .mobile-menu__wrapper ul li {
+    list-style: none;
+    padding: 6px 0
+}
+
+.mobile-menu .mobile-menu__wrapper ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 11px;
+    position: relative
+}
+
+.mobile-menu .mobile-menu__wrapper ul li a:hover {
+    opacity: 1;
+    text-decoration: none
+}
+
+.mobile-menu .mobile-menu__wrapper ul li a:after {
+    background: #fff;
+    bottom: 14px;
+    right: 1px
+}
+
+.mobile-menu .mobile-menu__close {
+    color: #fff;
+    transition: all .3s;
+    position: absolute;
+    top: 50px;
+    background-color: transparent;
+    border: none
+}
+
+.mobile-menu.mobile-menu--active .mobile-menu__close {
+    top: 25px !important
+}
+
+
+/**********************상단프로필*****************************/
+.main-header {
+    background-color: #6d56c1;
+    /*height: 53%;*/
+    height: 473px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px
+}
+
+.main-header:before {
+    background: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: "";
+    z-index: 0
+}
+
+@media screen and (max-width:990px) {
+    .main-header {
+        margin-bottom: 0;
+        height: 79% !important;
+    }
+}
+
+/**********************자기소개*****************************/
+.section .section__description {
+    margin-bottom: 30px
+}
