@@ -27,3 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <!-- 경력 -->
 <!-- 언어 -->
 <!-- 프로젝트 -->
+
+/*"gitHooks": {
+    "pre-commit": "lint-staged"
+  },*/

@@ -10,7 +10,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "pagenotfound" */ "@/views/PageNotFound.vue")
   }, // 없는 url 접속시 404
-  Home,
+  Home
 ];
 
 const router = new VueRouter({
