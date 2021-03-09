@@ -282,6 +282,259 @@
       </div>
     </section>
     <!-- my history end -->
+
+    <!-- my skill start -->
+    <section id="resume" class="container section">
+      <div class="row">
+        <div class="col-md-10">
+          <h2
+            id="resume_header"
+            class="section__title"
+            style="text-indent: 0px;"
+          >
+            보유기술_
+          </h2>
+          <!-- <p class="section__description">
+          설명
+          </p> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 section__resume resume-list">
+          <h3 class="resume-list_title">자격증</h3>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">인터넷윤리인증(IEQ) - 1급</p>
+            <p class="resume-list__block-date">2013.11</p>
+            <p>
+              한국생산성본부
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">리눅스마스터 - 2급</p>
+            <p class="resume-list__block-date">2013.12</p>
+            <p>
+              한국정보통신진흥협회
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">pc정비사 - 2급</p>
+            <p class="resume-list__block-date">2014.12</p>
+            <p>
+              한국정보통신자격협회
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">
+              ITQ(엑셀,파워포인트,한글) - A
+            </p>
+            <p class="resume-list__block-date">2015.01</p>
+            <p>
+              한국생산성본부
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">정보처리기능사</p>
+            <p class="resume-list__block-date">2015.04</p>
+            <p>
+              미래창조과학부
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">네트워크관리사 - 2급</p>
+            <p class="resume-list__block-date">2015.06</p>
+            <p>
+              한국정보통신진흥협회
+            </p>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">정보기기운용기능사</p>
+            <p class="resume-list__block-date">2015.07</p>
+            <p>
+              미래창조과학부
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row section__resume progress-list js-progress-list">
+        <div class="col-md-12">
+          <h3 class="progress-list__title">프로그래밍 능력</h3>
+        </div>
+        <div class="col-md-5 mr-auto">
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title"
+                >HTML, CSS, JAVASCRIPT, JQUERY</span
+              >
+              <span class="progress-list__skill-value">80%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">JAVA</span>
+              <span class="progress-list__skill-value">70%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">PHP</span>
+              <span class="progress-list__skill-value">70%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">ASP</span>
+              <span class="progress-list__skill-value">30%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="30"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">SPRING FRAMEWORK</span>
+              <span class="progress-list__skill-value">70%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">SVN</span>
+              <span class="progress-list__skill-value">90%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mr-auto">
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">C</span>
+              <span class="progress-list__skill-value">70%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">C++</span>
+              <span class="progress-list__skill-value">60%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">PYTHON</span>
+              <span class="progress-list__skill-value">70%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">RUBY</span>
+              <span class="progress-list__skill-value">50%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="progress-list__skill">
+            <p>
+              <span class="progress-list__skill-title">PYTHON FLASK</span>
+              <span class="progress-list__skill-value">50%</span>
+            </p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- my skill end -->
   </div>
 </template>
 
