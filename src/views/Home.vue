@@ -535,17 +535,69 @@
       </div>
     </section>
     <!-- my skill end -->
+
+
+
+    <!--Portfolio start-->
+    <section id="portfolio" class="container section">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="portfolio_header" class="section__title" style="text-indent: -9999px;">개인 프로젝트_</h2>
+        </div>
+      </div>
+      <div class="row portfolio-menu">
+        <div class="col-md-12">
+          <nav>
+            <ul>
+              <li><a href="" data-portfolio-target-tag="all">all</a></li>
+              <li><a href="" data-portfolio-target-tag="mobile apps">mobile apps</a></li>
+              <li><a href="" data-portfolio-target-tag="PC-Program">PC Program</a></li>
+              <li><a href="" data-portfolio-target-tag="web-sites">web-sites</a></li>
+              <li><a href="" data-portfolio-target-tag="python">python</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="portfolio-cards">
+        <div class="row project-card" data-toggle="modal" data-target="#portfolioModal1" data-portfolio-tag="mobile apps">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="" src="assets/img/project/1/thumb.png" alt="project-img">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">맛집 리뷰 어플</h3>
+            <p class="project-card__description">
+              본 어플은 맛집 후기를 통해 질좋은 맛집들을 소개하고 지도를 통해 맛집을 쉽게 찾을 수 있으며 예약하기를 통해 미리 가기전에 예약을 할 수 있습니다.
+            </p>
+            <p class="project-card__stack">Used stack:</p>
+            <ul class="tags">
+              <li>ANDROID JAVA</li>
+              <li>PYTHON FLASK</li>
+              <li>MYSQL</li>
+              <li>Retrofit</li>
+              <li>Picasso</li>
+              <li>Google Map API</li>
+            </ul>
+            <a href="" class="project-card__link">www.travellend.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!--Portfolio end-->
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
 import Profile from "@/components/Profile.vue";
+import portfolioJson from "@/data/portfolio.json";
 
 export default {
   components: {
     Header,
     Profile
+  },
+  mounted(){
+    console.log(portfolioJson.tags);
   }
 };
 </script>
